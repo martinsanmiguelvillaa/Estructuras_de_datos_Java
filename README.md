@@ -1,12 +1,8 @@
 # Implementación de Estructuras de Datos en Java
 
-Trabajo práctico de la materia **Algoritmos y Estructuras de Datos** — Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires (UBA).
-
----
-
 ## Descripcion
 
-Sistema de evaluacion y deteccion de plagios en examenes universitarios, construido desde cero sobre estructuras de datos propias implementadas en Java puro. El proyecto integra una logica de negocio no trivial (simulacion de aula, deteccion de copia, ranking dinamico de estudiantes) con estructuras de datos eficientes, todo validado mediante tests unitarios con JUnit 5 y cobertura medida con JaCoCo.
+Sistema de evaluacion y deteccion de plagios en examenes universitarios, construido desde cero sobre estructuras de datos propias implementadas en Java puro. El proyecto integra una logica  (simulacion de aula, deteccion de copia, ranking dinamico de estudiantes) con estructuras de datos eficientes.
 
 ---
 
@@ -52,8 +48,6 @@ La clase `Edr` modela un aula universitaria y expone las siguientes operaciones:
 
 - **Java 8**
 - **Maven** (gestion de dependencias y build)
-- **JUnit Jupiter 5.9.2** (tests unitarios)
-- **JaCoCo 0.8.10** (cobertura de codigo)
 
 ---
 
@@ -73,17 +67,4 @@ src/
     ├── EdrTests.java
     ├── TestsPila.java
     └── testsNuestrosEdR.java
-```
-
----
-
-## Como ejecutar
-
-```bash
-# Compilar y correr tests
-mvn test
-
-# Generar reporte de cobertura
-mvn verify
-# El reporte queda en target/site/jacoco/index.html
 ```
